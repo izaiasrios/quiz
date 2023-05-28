@@ -32,7 +32,7 @@ export default class RespostaModel {
     toObject(){
         return{
         valor: this.#valor,
-        certa: this.#revelada,
+        certa: this.#certa,
         revelada: this.#revelada
     }
 }
