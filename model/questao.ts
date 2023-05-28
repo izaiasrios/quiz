@@ -15,7 +15,7 @@ export default class QuestaoModel {
     }
 
     get id() {
-        return this.id
+        return this.#id
     }
 
     get enunciado() {
