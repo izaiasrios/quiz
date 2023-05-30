@@ -15,7 +15,12 @@ export default function Home() {
     RespostaModel.certa('Preta'),
   ])
   return (
-    <div className={styles.container}>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh'
+    }}>
       <Questao valor={questaoTeste} />
     </div>
   )
